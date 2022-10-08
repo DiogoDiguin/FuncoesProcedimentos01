@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int julgar (int x){
+    if (x % 2 == 0){
+        return 1;
+        print("\n");
+    }else{
+        return 0;
+        print("\n");
+    }
+}
+
+int main()
+{
+    int valor, decisao;
+
+    printf("Digite um valor: ");
+    scanf("%i", &valor);
+
+    decisao = julgar(valor);
+}
